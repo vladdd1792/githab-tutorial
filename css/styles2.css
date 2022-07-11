@@ -1,0 +1,150 @@
+/* ul, 
+ol {
+    list-style: none;
+} */
+
+a {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+li {
+    list-style-type:none
+}
+/*--HEADER--*/
+.logotipe {
+    font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+
+color: #2196F3;
+}
+
+.logotipp {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19px; 
+    letter-spacing: 0.03em;
+    color: #010101;
+}
+.menu-li {
+    font-family: 'Roboto';
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14px;
+letter-spacing: 0.02em;
+
+color: #212121;
+}
+.menu-li:hover,
+.menu-li:focus {
+    color: #2196F3;
+}
+.contact-phoun-number {
+    font-family: 'Roboto';
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14px;
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+
+.contact-maill { 
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+/*--/======================HEADER--*/
+
+/*============HERO==========================*/
+
+.but {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #212121;
+}
+.but:hover,
+.but:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+.proekt {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2px;
+    /* identical to box height, or 200% */
+    
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.proek {
+    font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87px;
+/* identical to box height, or 188% */
+
+letter-spacing: 0.03em;
+
+color: #757575;
+
+}
+/*============+HERO==========================*/
+
+/*=================FOOTER====================*/
+
+.logotipe {
+    font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+
+color: #2196F3;
+}
+
+.logotipp {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19px;
+    /* identical to box height */
+    
+    letter-spacing: 0.03em;
+    
+    color: #eff7fd;
+}
+.rif {
+    font-family: 'Roboto';
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: rgba(124, 119, 119, 0.6);
+}
+/*=================FOOTER====================*/
