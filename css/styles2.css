@@ -6,6 +6,12 @@ ol {
 a {
     text-decoration: none;
 }
+:root {
+    --knob-color: #2196F3;
+    --text-color: #212121;;
+    --whitey-color: #FFFFFF;
+    --mail-color:  #757575; 
+}
 
 .list {
     list-style: none;
@@ -13,12 +19,16 @@ a {
 li {
     list-style-type:none
 }
+.rif {
+    font-style: normal;
+}
+
 /*--HEADER--*/
 .logotipe {
     font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
-line-height: 1.19px;
+line-height: 1.19;
 /* identical to box height */
 
 letter-spacing: 0.03em;
@@ -26,7 +36,7 @@ letter-spacing: 0.03em;
 color: #2196F3;
 }
 
-.logotipp {
+.logotip {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -35,35 +45,35 @@ color: #2196F3;
     color: #010101;
 }
 .menu-li {
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
 font-weight: 500;
 font-size: 14px;
-line-height: 1.14px;
+line-height: 1.14;
 letter-spacing: 0.02em;
 
-color: #212121;
+color: var(--text-color);
 }
 .menu-li:hover,
 .menu-li:focus {
-    color: #2196F3;
+    color: var(--knob-color);
 }
 .contact-phoun-number {
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
 font-weight: 500;
 font-size: 14px;
-line-height: 1.14px;
+line-height: 1.14;
 letter-spacing: 0.02em;
-color: #757575;
+color: var(--mail-color);
 }
 
 
 .contact-maill { 
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #2196F3;
+    color: var(--knob-color);
 }
 /*--/======================HEADER--*/
 
@@ -80,33 +90,33 @@ color: #757575;
     text-align: center;
     letter-spacing: 0.03em;
     
-    color: #212121;
+    color: var(--text-color);
 }
 .but:hover,
 .but:focus {
-    background-color: #2196F3;
-    color: #FFFFFF;
+    background-color: var(--knob-color);
+    color: var(--whitey-color);
 }
 .proekt {
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 2px;
+    line-height: 2;
     /* identical to box height, or 200% */
     
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--text-color);
 }
 .proek {
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
 font-weight: 400;
 font-size: 16px;
-line-height: 1.87px;
+line-height: 1.87;
 /* identical to box height, or 188% */
 
 letter-spacing: 0.03em;
 
-color: #757575;
+color: var(--mail-color);
 
 }
 /*============+HERO==========================*/
@@ -122,7 +132,7 @@ line-height: 1.19px;
 
 letter-spacing: 0.03em;
 
-color: #2196F3;
+color: var(--knob-color);
 }
 
 .logotipp {
@@ -137,7 +147,7 @@ color: #2196F3;
     color: #eff7fd;
 }
 .rif {
-    font-family: 'Roboto';
+    font-family: 'Roboto',sans-serif;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71px;
@@ -145,6 +155,6 @@ line-height: 1.71px;
 
 letter-spacing: 0.03em;
 
-color: rgba(124, 119, 119, 0.6);
+color: rgba(255, 255, 255, 0.6);
 }
 /*=================FOOTER====================*/
